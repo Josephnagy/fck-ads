@@ -4,7 +4,7 @@
     "description": "This extension will skip ads on most websites",
     "version": "1.0",
     "browser_action": {
-        "default_icon": "assets/fck.ads.jpg",
+        "default_icon": "assets/fck.png",
         "default_popup": "popup.html"
     },
     "permissions": [

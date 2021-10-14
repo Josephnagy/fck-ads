@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log("un-fcking ad");
         console.log()
         let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-        console.log(tab);
 
         chrome.scripting.executeScript({
             target: { tabId: tab.id },
@@ -37,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function fckAd() {
     console.log("speeding up");
 
-    let arr = Array.prototype.slice.call(document.getElementsByTagName("video"))
+    let arr = Array.prototype.slice.call(document.getElementsByTagName("video"));
     arr.map(ele => ele.playbackRate = 16); 
 
     console.log("finished speeding up");
@@ -46,7 +45,7 @@ function fckAd() {
 function unFckAd() {
     console.log("slowing down");
 
-    let arr = Array.prototype.slice.call(document.getElementsByTagName("video"))
+    let arr = Array.prototype.slice.call(document.getElementsByTagName("video"));
     arr.map(ele => ele.playbackRate = 1);
 
     console.log("finished slowing up");

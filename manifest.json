@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Ad Skipper",
-    "description": "This extension will skip ads on most websites",
+    "name": "Fck Ads",
+    "description": "This extension will skip video ads on websites such as Hulu, Prime Video, Youtube, etc.",
     "version": "1.0",
     "action": {
         "default_icon": "assets/fck.png",

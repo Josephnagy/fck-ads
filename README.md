@@ -1,5 +1,5 @@
 # Fck Ads
-This chrome extension gives users the ability to skip video ads on sites such as Hulu, Amazon Prime, Youtube, etc. It was developed during a Codesmith hackathon which centered around developing chrome extensions. 
+This chrome extension gives users the ability to skip video ads on sites such as Hulu, Prime Video, Youtube, etc. It was developed during a Codesmith hackathon which centered around developing chrome extensions. 
 
 # Setup 
 1. Fork, clone and download the ad-skipper repository

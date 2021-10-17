@@ -38,7 +38,7 @@ function fckAd() {
 
     Array.prototype.slice.call(document.getElementsByTagName("video")).map(ele => ele.playbackRate = 16);
 
-    console.log("finished speeding up");
+    console.log("done speeding up");
 };
 
 function unFckAd() {
@@ -46,6 +46,6 @@ function unFckAd() {
 
     Array.prototype.slice.call(document.getElementsByTagName("video")).map(ele => ele.playbackRate = 1);
 
-    console.log("finished slowing up");
+    console.log("done slowing up");
 };
 

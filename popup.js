@@ -36,8 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function fckAd() {
     console.log("speeding up");
 
-    let arr = Array.prototype.slice.call(document.getElementsByTagName("video"));
-    arr.map(ele => ele.playbackRate = 16); 
+    Array.prototype.slice.call(document.getElementsByTagName("video")).map(ele => ele.playbackRate = 16);
 
     console.log("finished speeding up");
 };
@@ -45,8 +44,7 @@ function fckAd() {
 function unFckAd() {
     console.log("slowing down");
 
-    let arr = Array.prototype.slice.call(document.getElementsByTagName("video"));
-    arr.map(ele => ele.playbackRate = 1);
+    Array.prototype.slice.call(document.getElementsByTagName("video")).map(ele => ele.playbackRate = 1);
 
     console.log("finished slowing up");
 };
